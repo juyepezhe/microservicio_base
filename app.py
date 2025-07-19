@@ -18,7 +18,7 @@ def sumar():
 @app.route('/api/info', methods=['GET'])
 def info():
     return jsonify({
-        'autor': 'Equipo X',
+        'autor': 'Juan Pablo Yepez',
         'version': '1.0',
         'descripcion': 'Microservicio de ejemplo para clases de cloud, APIs y Docker.'
     })
